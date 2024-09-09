@@ -40,8 +40,8 @@ class MainActivity : AppCompatActivity() {
                 // Berpindah ke SecondActivity
                 val intentToSecondActivity = Intent(this@MainActivity, SecondActivity::class.java).apply {
                     putExtra(EXTRA_NAME, username)
-                    putExtra(EXTRA_EMAIL, email) // Gunakan nilai yang sesuai
-                    putExtra(EXTRA_PHONE, phone) // Gunakan nilai yang sesuai
+                    putExtra(EXTRA_EMAIL, email)
+                    putExtra(EXTRA_PHONE, phone)
                 }
                 startActivity(intentToSecondActivity)
             } else {
